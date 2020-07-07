@@ -1,3 +1,10 @@
+.carousel-indicators li {
+  background-image: linear-gradient(45deg, orange, orangered);
+  height: 5px;
+  width: 15px;
+  border-radius: 45%;
+}
+
 .buy-now-btn {
   border: none;
   padding: 10px 20px;
