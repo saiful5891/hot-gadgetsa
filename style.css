@@ -1,0 +1,35 @@
+.buy-now-btn {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+.my-card {
+  border: none;
+  box-shadow: 0 0 10px 2px #d4d3d347;
+  border-radius: 10px;
+}
+.orange-view-btn {
+  color: orange;
+  font-weight: bold;
+}
+.cat-box {
+  box-shadow: 0 0 10px 3px #d4d3d347;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.sec-title {
+  text-align: center;
+  padding: 50px 0;  
+}
+.sec-title::after {
+  content: "";
+  width: 150px;
+  height: 5px;
+  background-image: linear-gradient(45deg, orange, orangered);
+  display: inline-block;
+  border-radius: 20px;
+}
